@@ -256,7 +256,7 @@ const tabSelected = ref(0);
     </div>
     <ul
       v-if="tabSelected === 0"
-      class="flex flex-col gap-1 max-w-4xl py-2 px-4 rounded-xl bg-red-50 h-80 overflow-auto"
+      class="flex flex-col gap-1 max-w-4xl py-2 px-4 rounded-xl bg-sky-100 h-80 overflow-auto"
     >
       <li v-for="notice in notices" :key="notice.date">
         <div class="card w-full bg-base-100 shadow-xl">
