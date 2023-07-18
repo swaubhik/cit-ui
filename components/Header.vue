@@ -56,24 +56,24 @@ const navigation = [
         </div>
       </div>
     </div>
-    <div class="sticky top-0 bg-info">
-      <div class="container mx-auto">
-        <div class="flex justify-center border-t px-5">
-          <div class="flex justify-center">
-            <nav class="navbar text-base-100 text-lg font-semibold gap-8">
-              <nuxt-link
-                exactActiveClass="font-bold"
-                v-for="(nav, index) in navigation"
-                :key="index"
-                :to="nav.link"
-                >{{ nav.name }}</nuxt-link
-              >
-            </nav>
-          </div>
+  </header>
+  <div class="sticky top-0 z-50 bg-info">
+    <div class="container mx-auto">
+      <div class="flex justify-center border-t px-5">
+        <div class="flex justify-center">
+          <nav class="navbar text-base-100 text-lg font-semibold gap-8">
+            <nuxt-link
+              exactActiveClass="font-bold"
+              v-for="(nav, index) in navigation"
+              :key="index"
+              :to="nav.link"
+              >{{ nav.name }}</nuxt-link
+            >
+          </nav>
         </div>
       </div>
     </div>
-  </header>
+  </div>
 </template>
 
 <style scoped></style>
