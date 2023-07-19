@@ -203,32 +203,7 @@ const tabSelected = ref(0);
         </div>
       </div>
     </div>
-    <!-- tabs for notice tenders events  -->
-
-    <!-- <Tabs class="h-80 overflow-auto">
-      <Tab class="sticky top-0" title="Tab 1">
-        <li
-          class="list-none w-full md:w-1/2 p-6 flex flex-col justify-center"
-          v-for="notice in notices"
-          :key="notice.date"
-        >
-          <div class="card shadow-lg compact side bg-base-100">
-            <div class="card-body">
-              <h2 class="card-title">{{ notice.title }}</h2>
-              <p>{{ notice.description }}</p>
-            </div>
-            <div class="card-footer">
-              <div class="badge badge-ghost badge-md">
-                {{ notice.date }}
-              </div>
-            </div>
-          </div>
-        </li>
-      </Tab>
-      <Tab title="Tab 2">Hello From Tab 2</Tab>
-      <Tab title="Tab 3">Hello From Tab 3</Tab>
-    </Tabs> -->
-
+    <!-- Tabs  -->
     <div
       class="flex justify-between max-w-4xl py-2 rounded-2xl overflow-hidden text-white font-semibold text-lg"
     >
